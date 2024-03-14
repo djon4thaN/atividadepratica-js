@@ -1,11 +1,11 @@
 let idade = prompt("digite sua idade");
 
-let peso = parseFloat(prompt("digite seu peso"))
+let peso = parseFloat(prompt("digite seu peso"));
 
 if (idade <= 12 ){
     document.write("Sua categoria é: Infantil")
 }
-else if( idade >=13 && idade <= 16){
+else if( idade >= 13 && idade <= 16){
     if (peso <= 40){
         document.write("Sua categoria é: Juvenil leve")
     }
