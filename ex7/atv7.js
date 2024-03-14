@@ -1,4 +1,4 @@
-let saque = parseFloat (prompt("Digite um valor para retirada"));
+let saque = parseFloat(prompt("Digite um valor para retirada"));
 
 let conta = 100;
 
@@ -11,7 +11,7 @@ if (saque % 5 === 0 && saque != 0){
         document.write(`o valor do saque foi de ${valorCobrado}, e ficou ${valorRestante} na sua conta`)
     }
     else {
-        document.write("Você nao posui salto suficiente ")
+        document.write("Você nao possui salto suficiente ")
     }
 }
 else {
