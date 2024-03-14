@@ -26,4 +26,4 @@ else if( idade >=17 && idade <= 24){
 }
 else if (idade > 24){
     document.write("Sua categoria é: Veterano")
-}
+};

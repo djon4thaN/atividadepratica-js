@@ -15,5 +15,5 @@ if (saque % 5 === 0 && saque != 0){
     }
 }
 else {
-    document.write("informe um valor diferente com final 5 ou 0,")
+    document.write("informe um valor diferente com final 5 ou 0.")
 }
